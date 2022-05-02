@@ -1,0 +1,15 @@
+
+name: CI
+on: [push]
+jobs:
+ build:
+  runs-on: ubuntu-latest  
+  steps:
+    - name: git clone
+      uses: actions/checkout@v1
+    - name: build
+      run: |
+       cmake -B ./output
+       cd output
+       make
+       ./project
