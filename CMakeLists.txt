@@ -17,4 +17,4 @@ find_package(print)
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} print)
 
-//install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
+#install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
