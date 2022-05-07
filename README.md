@@ -1,6 +1,6 @@
 # TIMP_lab07
 
-Hunter подключает библиотеки к данному репозиторию, которые находится в другом репозитории
+Hunter подключает библиотеки к данному репозиторию, которые находятся в другом репозитории
 
 * Для нашей лабораторной работы нам понядобятся 3 репозитория.
     1. репозиторий №1) (https://github.com/sasha16613/print) репозиторий, откуда мы будем брать библиотеку
@@ -45,9 +45,9 @@ https://cmake.org/cmake/help/latest/module/CMakePackageConfigHelpers.html
 * повторяем действия с релизом, которые мы делали в репозиторий №1.
 
 ## репозиторий №2
-1. Папку cmake и файл, благодаря этомы, мы можем использовать hunter.
+1. Благодаря cmake/HunterGate.cmake, мы можем использовать hunter. Этот файл копируется из репозитория hunter (gate/cmake/HunterGate.cmake).
     * https://hunter.readthedocs.io/en/latest/quick-start/boost-components.html
-    * https://github.com/sasha16613/TIMP_lab07/blob/master/cmake/HunterGate.cmake
+    * https://github.com/cpp-pm/gate/blob/958e65c65fb659293b23c7a3c64abf3ce81e6ff1/cmake/HunterGate.cmake
 2. В CMakeLists.txt:
     1. 5 - этот модуль автоматически загрузит архив с указанного вами URL-адреса.
     2. 7-10 - передаем ссылку на архив и его хэш.
